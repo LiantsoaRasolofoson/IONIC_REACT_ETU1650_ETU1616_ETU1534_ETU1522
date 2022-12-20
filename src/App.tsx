@@ -54,6 +54,14 @@ const App: React.FC = () => (
             <Footer />
           </IonPage>
         </Route>
+        <Route path="/" exact>
+          <Menu />
+          <IonPage id="main-content">
+            <MenuHeader />
+            <ListeAvion/>
+            <Footer />
+          </IonPage>
+        </Route>
         <Route path="/details">
           <Menu />
           <IonPage id="main-content">
