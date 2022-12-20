@@ -1,0 +1,7 @@
+{
+  "name": "avion-front-end",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
